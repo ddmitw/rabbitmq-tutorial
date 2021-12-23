@@ -1,0 +1,12 @@
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 8787
+# Spring配置
+spring:
+  #rabbitmq配置
+  rabbitmq:
+    host: 127.0.01
+    port: 5672
+    username: guest
+    password: guest
